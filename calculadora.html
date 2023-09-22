@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nome</title>
+    
+
+<script>
+
+  function adição()
+  {
+  var num1 = parseFloat(document.getElementById("n1").value);
+  var num2 = parseFloat(document.getElementById("n2").value);
+  var res= num1 + num2;
+  document.getElementById("resultado").textContent= res;
+  }
+
+  function subtração()
+  {
+  var num1 = parseFloat(document.getElementById("n1").value);
+  var num2 = parseFloat(document.getElementById("n2").value);
+  var res= num1 - num2;
+  document.getElementById("resultado").textContent= res;
+  }
+
+  function multiplicação()
+  {
+  var num1 = parseFloat(document.getElementById("n1").value);
+  var num2 = parseFloat(document.getElementById("n2").value);
+  var res= num1 * num2;
+  document.getElementById("resultado").textContent= res;
+  }
+
+
+  function divisão()
+  {
+  var num1 = parseFloat(document.getElementById("n1").value);
+  var num2 = parseFloat(document.getElementById("n2").value);
+  var res= num1 /num2;
+  document.getElementById("resultado").textContent= res;
+  }
+
+</script>
+
+</head>
+
+<center><h1>Bem vindo</h1></center>
+<p>Digite um numero</p>
+<body>
+ <br><input type="text" id="n1"><br>
+ <br><input type="text" id="n2"><br>
+ <br><button onclick="adição()">adição</button><br>
+ <br><button onclick="subtração()">subtração</button><br>
+ <br><button onclick="multiplicação()">multiplicação</button><br>
+ <br><button onclick="divisão()">divisão</button><br>
+ <p id="resultado">aqui aprecerar o <b>resultado</b>.</p>
+</body>
+</html>
