@@ -1,3 +1,3 @@
 #      Projetos E Praticas
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Exercios e Praticas para Treinos e Reforços, Em Html e javaScript Para me Aperfeiçoar
